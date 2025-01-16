@@ -1,0 +1,2 @@
+curl "https://language.googleapis.com/v1/documents:analyzeSentiment?key=${API_KEY}" \
+  -s -X POST -H "Content-Type: application/json" --data-binary @analyze-sentiment-request.json > analyze-sentiment-result.json

@@ -1,0 +1,2 @@
+curl "https://language.googleapis.com/v1/documents:analyzeEntitySentiment?key=${API_KEY}" \
+  -s -X POST -H "Content-Type: application/json" --data-binary @analyze-entity-sentiment-request.json > analyze-entity-sentiment-result.json

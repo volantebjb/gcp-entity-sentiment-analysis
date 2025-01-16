@@ -1,0 +1,2 @@
+curl "https://language.googleapis.com/v1/documents:analyzeSyntax?key=${API_KEY}" \
+  -s -X POST -H "Content-Type: application/json" --data-binary @analyze-syntax-request.json > analyze-syntax-result.json
